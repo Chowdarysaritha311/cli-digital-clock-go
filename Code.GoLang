@@ -1,0 +1,17 @@
+package main
+
+import ( "fmt" "time" )
+
+func main() { for { printClock() time.Sleep(1 * time.Second) } }
+
+func printClock() { // Clear the terminal screen fmt.Print("\033[H\033[2J")
+
+now := time.Now()
+fmt.Println("🕒 Digital Clock")
+fmt.Println("====================")
+fmt.Println(now.Format("15:04:05"))
+fmt.Println("====================")
+fmt.Println("Press Ctrl+C to exit.")
+
+}
+

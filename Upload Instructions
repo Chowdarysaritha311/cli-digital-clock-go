@@ -1,0 +1,10 @@
+1. Create a GitHub repo named cli-digital-clock-go.
+
+
+2. Inside your local folder:
+
+git init
+git remote add origin https://github.com/your-username/cli-digital-clock-go.git
+git add .
+git commit -m "Initial commit: CLI Digital Clock using Go"
+git push -u origin master
